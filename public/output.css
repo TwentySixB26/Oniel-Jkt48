@@ -625,6 +625,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
 .block {
   display: block;
 }
@@ -638,6 +642,10 @@ video {
 }
 
 .h-screen {
+  height: 100vh;
+}
+
+.h-\[100vh\] {
   height: 100vh;
 }
 
@@ -659,6 +667,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
 }
 
 .translate-x-\[100\%\] {
@@ -748,6 +760,11 @@ video {
   background-color: transparent;
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -805,6 +822,14 @@ video {
 
 .pt-24 {
   padding-top: 6rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
 }
 
 .font-fira-sans {
