@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -671,6 +675,10 @@ video {
 
 .w-\[100vw\] {
   width: 100vw;
+}
+
+.w-\[40vw\] {
+  width: 40vw;
 }
 
 .translate-x-\[100\%\] {
