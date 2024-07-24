@@ -840,6 +840,14 @@ video {
   padding-bottom: 9rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .font-fira-sans {
   font-family: Fira Sans, sans-serif;
 }
