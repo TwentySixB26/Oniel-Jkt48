@@ -12,16 +12,16 @@
 
     <link rel="stylesheet" href="public/output.css"> 
 </head>
-<body class="overflow-x-hidden w-[100vw] h-[100vh]">
+<body class="overflow-x-hidden w-[100vw] h-[100vh] bg-white">
 
     <!-- navbar  -->
     <header class="bg-transparent fixed top-0 left-0 w-full flex items-center z-10 " >
         <div class="lg:container w-full ">
-            <div class=" flex items-center justify-between relative px-9  md:px-9 lg:px-9 py-3 md:py-7 lg:py-5">
+            <div class=" flex items-center justify-between relative px-9  md:px-9 lg:px-9 py-3 md:py-7 lg:py-3">
                 <div class="flex justify-center items-center">
-                    <a href="#"><img src="public/img/JKT48.png" alt="" class="md:w-12 w-9 lg:pt-0 pt-0"></a>
+                    <a href="#"><img src="public/img/JKT48.png" alt="" class="md:w-10 w-9 lg:pt-0 pt-0"></a>
                 </div>
-                <ul class="items-start top-0 right-0 translate-x-[100%] transition-all ease-linear duration-[600ms] absolute justify-start flex flex-col w-10/12 h-screen md:static md:translate-x-0 md:flex-row md:h-max md:w-max bg-cyan-600 md:bg-transparent">
+                <ul class="items-start top-0 right-0 translate-x-[100%] transition-all ease-linear duration-[400ms] absolute justify-start flex flex-col w-10/12 h-screen md:static md:translate-x-0 md:flex-row md:h-max md:w-max bg-cyan-600 md:bg-transparent">
                     <li class="closeNav hover:text-cyan-600 my-[20px] mx-[50px] font-medium md:my-0 md:mx-0 md:ml-6 lg:ml-8 md:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: msFilter;"> <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
                     </li>
@@ -45,7 +45,7 @@
 
 
     <!-- hero  -->
-    <section clas class="overflow-x-hidden" id="hero">
+    <section clas class="overflow-x-hidden pb-14" id="hero">
         <div class=" lg:container">
             <div class="flex flex-wrap pt-24 md:pt-36 lg:pt-[120px]">
                 <div class= " w-full lg:w-1/2 sm:w-8/12 px-5 sm:px-9 py-4 self-center font-fira-sans">
@@ -64,31 +64,35 @@
             </div>
         </div>
     </section>
+   
     <!-- akhir hero  -->
 
 
 
     <!-- about  -->
-    <section id="about" class="pt-20 sm:pt-24 md:pt-28 lg:pt-20">
-        <div class="lg:container">
+    <section id="about" class=" bg-cyan-700 ">
+        <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="fill-current"  viewBox="0 0 283.5 27.8" preserveAspectRatio="none"> <path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"></path> <path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"></path> <path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"></path> <path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"></path> <path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"></path> <path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"></path> <path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"></path> <path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"></path> <path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"></path> </svg>
+        </div>
+        <div class="lg:container pt-20 sm:pt-24 md:pt-28 lg:pt-20">
             <div class="flex flex-wrap">
                 <div class="w-full  px-5 self-start font-inter sm:w-1/2">
-                    <h1 class="uppercase mb-3 font-bold text-cyan-600 text-lg md:text-xl">Tentang Oniel</h1>
-                    <h1 class="text-2xl font-bold mb-3 text-slate-800 md:text-2xl lg:text-3xl">Udah kenal sama oniel? Yuk kenalan dulu </h1>
-                    <p class="text-slate-500 text-sm font-fira-sans md:text-base">Cornelia Syafa Vanisa atau yang kerap dipanggil oniel adalah salah satu member jkt48 yang ada di Gen 8, Lahir di Tangerang pada tanggal 26 Juli 2002. Oniel adalah member yang memiliki jokes yang cukup unik seperti jokes bapak bapak. </p>
+                    <h1 class="uppercase mb-3 font-bold text-cyan-100 text-lg md:text-xl">Tentang Oniel</h1>
+                    <h1 class="text-2xl font-bold mb-3 text-cyan-200 md:text-2xl lg:text-3xl">Udah kenal sama oniel? Yuk kenalan dulu </h1>
+                    <p class="text-slate-300 text-sm font-fira-sans md:text-base">Cornelia Syafa Vanisa atau yang kerap dipanggil oniel adalah salah satu member jkt48 yang ada di Gen 8, Lahir di Tangerang pada tanggal 26 Juli 2002. Oniel adalah member yang memiliki jokes yang cukup unik seperti jokes bapak bapak. </p>
                 </div>
                 <div class="w-full self-start px-5 font-inter pt-12 sm:w-1/2 sm:pt-10 lg:pt-11">
-                    <h1 class="text-xl font-bold mb-3 text-slate-800 md:text-2xl">Oniel dan Jkt48</h1>
-                    <p class="text-slate-500 text-sm font-fira-sans md:text-base">Pada tanggal 27 april 2019 oniel bergabung dengan grup idol yang bernama jkt48 dan promosi ke Academy's Class A pada tanggal 26 mei 2019 serta masuk ke dalam Team T pada tanggal 1 juni 2020 dan pada akhirnya tergabung kedalam jkt48 New Era pada tanggal 12 Maret 2021. </p>
+                    <h1 class="text-xl font-bold mb-3 text-cyan-200 md:text-2xl">Oniel dan Jkt48</h1>
+                    <p class="text-slate-300 text-sm font-fira-sans md:text-base">Pada tanggal 27 april 2019 oniel bergabung dengan grup idol yang bernama jkt48 dan promosi ke Academy's Class A pada tanggal 26 mei 2019 serta masuk ke dalam Team T pada tanggal 1 juni 2020 dan pada akhirnya tergabung kedalam jkt48 New Era pada tanggal 12 Maret 2021. </p>
                     <div class="flex items-center mt-7">
                         <!-- ig  -->
-                        <a href="https://www.instagram.com/jkt48.oniel/" target="_blank" class="w-8 h-8 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-cyan-600 hover:bg-cyan-600 hover:text-white">
+                        <a href="https://www.instagram.com/jkt48.oniel/" target="_blank" class="w-8 h-8 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-cyan-800 hover:bg-cyan-800 hover:text-white">
                             <svg role="img" width="16" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
                         </a>
                         <a href="https://x.com/C_OnielJKT48" target="_blank" class="w-8 h-8 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-cyan-600 hover:bg-cyan-600 hover:text-white">
                             <svg role="img" width="15" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
                         </a>
-                        <a href="https://www.tiktok.com/@onieljkt48" target="_blank" class="w-8 h-8 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-cyan-600 hover:bg-cyan-600 hover:text-white">
+                        <a href="https://www.tiktok.com/@onieljkt48" target="_blank" class="w-8 h-8 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-cyan-800 hover:bg-cyan-800 hover:text-white">
                             <svg role="img"  width="15" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
                         </a>
                         <a href="https://jkt48.com/member/detail/id/221?lang=id" target="_blank" class="w-8 h-8 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-cyan-600 hover:bg-cyan-600 hover:text-white">
@@ -97,12 +101,36 @@
                     </div>
                 </div>
             </div>
+            <div class="w-full  px-5 pt-16 sm:pt-24 pb-24">
+                <h1 class="block mt-1 text-cyan-200 text-2xl font-bold font-fira-sans text-center sm:text-3xl"> Video Profile</h1>
+                <div class="w-full mt-6">
+                    <video src="public/oniel.mp4" controls width="700px" class="rounded-2xl mx-auto shadow-shadow-me"></video>
+                </div>
+            </div>
         </div>
     </section>
+    <div class="text-cyan-700">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-current"  viewBox="0 0 283.5 27.8" preserveAspectRatio="none"> <path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"></path> <path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"></path> <path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"></path> <path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"></path> <path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"></path> <path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"></path> <path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"></path> <path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"></path> <path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"></path> </svg>
+    </div>
     <!-- akhir about -->
+
+
+    <!-- show  -->
+    <section class="pt-20 sm:pt-24 md:pt-28 lg:pt-20 " id="show">
+        <div class="lg:container">
+            <div class="w-full px-5">
+                <h1>Show Oniel</h1>
+                <p>Oniel sudah tampil di 270 show theater semenjak debut pada 17 Agustus 2019 dan tampil di 8 setlist theater. Berikut adalah setlist-setlist yang Oniel pernah tampil dan jumlah shownya</p>
+            </div>
+        </div>
+    </section>
+    <!-- akhir show  -->
 
     <div class="pb-36"></div>
 
+
+
+    
     <script src="public/scricpt.js"></script>
 </body>
 </html>
