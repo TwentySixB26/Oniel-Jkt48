@@ -11,5 +11,49 @@
     @apply  z-[99999] bg-white bg-opacity-70 ; 
     backdrop-filter:blur(5px) ;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
 
+
+.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+    /* grid-auto-columns: 220px; */
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+    scrollbar-width: none;
+}
+
+.card {
+    list-style: none;
+    /* background: #fff; */
+    border-radius: 8px;
+    text-align: center;
+    /* transition: ease 0.5s; */
+    /* scroll-snap-align: start; */
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    /* scroll-snap-type: none; */
+    scroll-behavior:auto;
+}
+
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    /* filter: grayscale(100%); */
+    transition: ease 0.5s;
+    @apply rounded-xl
 }
