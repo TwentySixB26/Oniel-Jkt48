@@ -106,3 +106,69 @@ carousel.addEventListener("scroll", function () {
     
 })
 // akhir infinity scrolling 
+
+
+
+
+
+
+
+
+
+
+// img galery 
+const images = document.querySelectorAll('.imageGalery');
+
+// popup
+const popup = document.querySelector('.popup');
+const closeBtn = document.querySelector('.close-btn');
+const imageName = document.querySelector('.image-name');
+const largeImage = document.querySelector('.large-image');
+const imageIndex = document.querySelector('.index');
+const leftArrow = document.querySelector('.left-arrow');
+const rightArrow = document.querySelector('.right-arrow');
+
+let index = 0; 
+
+images.forEach((item, i) => {
+    item.addEventListener('click', () => {
+        popup.classList.toggle('active');
+        let srcImage = item.getAttribute('src') ;
+        updateImage(srcImage,i);
+    })
+})
+
+
+const updateImage = (srcImage,i) => {
+    let path = srcImage;
+    largeImage.src = path;
+    imageName.innerHTML = path;
+    imageIndex.innerHTML = i;
+    index = i;
+}
+
+closeBtn.addEventListener('click', () => {
+    popup.classList.toggle('active');
+})
+
+leftArrow.addEventListener('click', () => {
+    if(index > 0){
+        index = index-1
+        let indexBack = images[index] ; 
+        let srcBack = indexBack.getAttribute('src') ;
+        updateImage(srcBack, index);
+    }
+})
+
+rightArrow.addEventListener('click', () => {
+    if(index < images.length - 1){
+        index = index+1
+        let indexNext = images[index] ; 
+        let srcNext = indexNext.getAttribute('src') ;
+        // console.log(imgNext) ;
+        updateImage(srcNext, index);
+    }
+})
+
+
+// akhir img galery 
