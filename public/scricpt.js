@@ -110,30 +110,26 @@ carousel.addEventListener("scroll", function () {
 
 
 
-
-
-
-
-
-
 // img galery 
-const images = document.querySelectorAll('.imageGalery');
+const images = document.querySelectorAll('.imageGalery img');
+const cameraBtn = document.querySelectorAll('#cameraBtn') ; 
 
 // popup
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('.close-btn');
-const imageName = document.querySelector('.image-name');
+// const imageName = document.querySelector('.image-name');
 const largeImage = document.querySelector('.large-image');
-const imageIndex = document.querySelector('.index');
+// const imageIndex = document.querySelector('.index');
 const leftArrow = document.querySelector('.left-arrow');
 const rightArrow = document.querySelector('.right-arrow');
 
 let index = 0; 
 
-images.forEach((item, i) => {
+cameraBtn.forEach((item, i) => {
     item.addEventListener('click', () => {
+
         popup.classList.toggle('active');
-        let srcImage = item.getAttribute('src') ;
+        let srcImage = images[i].getAttribute('src') ;
         updateImage(srcImage,i);
     })
 })
@@ -142,8 +138,8 @@ images.forEach((item, i) => {
 const updateImage = (srcImage,i) => {
     let path = srcImage;
     largeImage.src = path;
-    imageName.innerHTML = path;
-    imageIndex.innerHTML = i;
+    // imageName.innerHTML = path;
+    // imageIndex.innerHTML = i+1;
     index = i;
 }
 

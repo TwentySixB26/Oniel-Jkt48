@@ -10,7 +10,7 @@
 .navbar-fixed {
     @apply  z-[99999] bg-white bg-opacity-70 ; 
     backdrop-filter:blur(5px) ;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -147,7 +147,7 @@
 }
 
 .arrow-btn:hover{
-    background: rgba(14, 116, 144, 1);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .index{
