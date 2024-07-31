@@ -167,3 +167,18 @@
     object-fit: contain;
     opacity: 0;
 }
+
+
+
+
+/* time line  */
+.head::after {
+	content: " ";
+	position: absolute;
+	width: 50%;
+	height: 3px;
+	left: 50%;
+	bottom: -10px;
+	transform: translateX(-50%);
+    @apply bg-slate-100 rounded-full
+}
