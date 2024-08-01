@@ -168,3 +168,25 @@ rightArrow.addEventListener('click', () => {
 
 
 // akhir img galery 
+
+
+
+// scroll 
+let about = document.querySelector('#about')
+let aboutContent = document.querySelector('#about #content')
+
+let ashow = document.querySelector('#show')
+let showContent = document.querySelector('#show #content')
+
+window.addEventListener('scroll', function() {
+    let wScroll = this.scrollY
+
+    if (wScroll > 200) {
+        aboutContent.classList.add('muncul')
+    }
+
+    if (wScroll > 1472) {
+        showContent.classList.add('muncul')
+    }
+})
+// akhir scroll 

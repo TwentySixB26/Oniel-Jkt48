@@ -182,3 +182,8 @@
 	transform: translateX(-50%);
     @apply bg-slate-100 rounded-full
 }
+
+
+.muncul {
+    @apply translate-y-0 opacity-100
+}
